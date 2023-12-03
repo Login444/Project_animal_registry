@@ -1,0 +1,27 @@
+64  cat > domestic_animals.txt
+   65  cat > pack_animals.txt
+   66  cat domestic_animals.txt pack_animals.txt > new_file.txt
+   67  cat new_file.txt 
+   68  mv new_file.txt human_friends.txt
+   69  mkdir my_project
+   70  ll
+   71  mv human_friends.txt my_project/
+   72  ll
+   73  cd my_project/
+   74  ll
+   75  wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+   76  cd ~~
+   77  cd ~
+   78  cd Загрузки/
+   79  ll
+   80  sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb 
+   81  sudo apt update
+   82  sudo apt install mysql-server
+   83  systemctl status mysql
+   84  wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+   85  sudo dpkg - i mysql-connector-j_8.0.32-1ubuntu22.04_all.deb
+   86  ll
+   87  sudo dpkg -i mysql-connector-j_8.0.32-1ubuntu22.04_all.deb 
+   88  sudo dpkg -r mysql-connector-j
+   89  sudo apt autoremove
+   90  history
